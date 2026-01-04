@@ -1,0 +1,10 @@
+einops==0.8.1
+matplotlib==3.10.8
+mmsdk==1.1.0
+numpy==2.4.0
+pandas==2.3.3
+scikit_learn==1.8.0
+torch==2.2.2
+torch==2.4.1
+tqdm==4.66.5
+transformers==4.45.2
