@@ -102,7 +102,7 @@ def parse_opts(data_set):
     parser.add_argument('--gamma', type=float, default=0.7)
     parser.add_argument('--uni_loss_weight', type=float, default=0.5)
     parser.add_argument('--early_stop', type=int, default=20, help='T/A/V')
-    parser.add_argument('--epoch', type=int, default=5)
+    parser.add_argument('--epoch', type=int, default=100)
     parser.add_argument('--save_best_model', type=bool, default=True)
     parser.add_argument('--save_logs', type=bool, default=True)
 
@@ -116,4 +116,5 @@ def parse_opts(data_set):
     parser.add_argument('--two_classifier', type=bool, default=False)
     parser.add_argument('--excludeZero', type=bool, default=True)
     args = parser.parse_args()
+
     return args
