@@ -62,7 +62,7 @@ data_set
    |--- IEMOCAP
    |      |---iemocap_data.pkl
    |      |---iemocap_data_noalign.pkl
-   |      |  ......
+   |      | ......
    |
    |--- MOSEI
    |      |---train.pkl
