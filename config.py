@@ -30,6 +30,7 @@ def parse_opts(data_set):
         parser.add_argument('--num_classes', type=int, default=1)
         parser.add_argument('--batch_first', type=bool, default=False)
         parser.add_argument('--file_name', type=str, default='mosi.pth')
+        parser.add_argument('--H', type=float, default=3.0)
 
 
 
@@ -47,6 +48,7 @@ def parse_opts(data_set):
         parser.add_argument('--num_classes', type=int, default=1)
         parser.add_argument('--batch_first', type=bool, default=False)
         parser.add_argument('--file_name', type=str, default='mosei.pth')
+        parser.add_argument('--H', type=float, default=3.0)
 
 
     if data_set == 'iemocap':
@@ -84,6 +86,7 @@ def parse_opts(data_set):
         parser.add_argument('--need_normalized', type=bool, default=True)
         parser.add_argument('--use_bert', type=bool, default=True)
         parser.add_argument('--file_name', type=str, default='sims.pth')
+        parser.add_argument('--H', type=float, default=1.0)
 
     args, _ = parser.parse_known_args()
     parser.add_argument('--guide', type=str, default='V', help='T/A/V')
@@ -112,9 +115,9 @@ def parse_opts(data_set):
     parser.add_argument('--post_text_dim', type=int, default=2 * args.hidden_dim)
     parser.add_argument('--post_audio_dim', type=int, default=2 * args.hidden_dim)
     parser.add_argument('--post_video_dim', type=int, default=2 * args.hidden_dim)
-    parser.add_argument('--H', type=float, default=3.0)
     parser.add_argument('--two_classifier', type=bool, default=False)
     parser.add_argument('--excludeZero', type=bool, default=True)
     args = parser.parse_args()
 
     return args
+
