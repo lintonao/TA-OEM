@@ -35,6 +35,47 @@ You need to prepare Chinese and English BERT pretrained files and place them in 
 
 
 The file structure should be organized as follows:
+```
+pretrain_data
+   |--- bert_en
+   |      |---bert_config.json
+   |      |  ......
+   |
+   |--- bert_cn
+   |      |---tokenizer.json
+   |      |  ......
+   |
+```
+You need to download the dataset files and place them in their corresponding folders under the ```data_set/``` directory.
+
+
+The file structure should be organized as follows:
+```
+data_set
+   |--- ch_simsv2
+   |      |---ch-simsv2u.pkl
+   |      |---unaligned.pkl
+   |
+   |--- IEMOCAP
+   |      |---iemocap_data.pkl
+   |      |---iemocap_data_noalign.pkl
+   |      |  ......
+   |
+   |--- MOSEI
+   |      |---train.pkl
+   |      |---dev.pkl
+   |      |---test.pkl
+   |      | ......
+   |
+   |--- MOSI
+   |      |---train.pkl
+   |      |---dev.pkl
+   |      |---test.pkl
+   |      | ......
+```
+
+After installing the required libraries, you can directly run the ```run.py``` file to train the model. You can modify the dataset to run in the ```run.py``` file.   
+By default, the model trains for 100 epochs. You can adjust the number of epochs in ```config.py```. After training, the model weights will be saved to the ```saves/save_model/``` directory.
 
 
 # Cite:
