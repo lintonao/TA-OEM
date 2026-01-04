@@ -12,6 +12,9 @@ We propose the Two-step Hierarchical Attention and Orthogonal Information Enhanc
 
 This paper is available at: https://www.sciencedirect.com/science/article/abs/pii/S0950705125021835
 
+
+![abstruct](./fig/abstruct.png)
+
 # Dataset
 Our program reports the training results of the model on four datasets: CMU-MOSI, CMU-MOSEI, CH-SIMS, and IEMOCAP.
 
@@ -75,6 +78,7 @@ data_set
 ```
 
 After installing the required libraries, you can directly run the ```run.py``` file to train the model. You can modify the dataset to run in the ```run.py``` file.   
+
 By default, the model trains for 100 epochs. You can adjust the number of epochs in ```config.py```. After training, the model weights will be saved to the ```saves/save_model/``` directory.
 
 
