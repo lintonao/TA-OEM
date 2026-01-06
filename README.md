@@ -34,7 +34,7 @@ You can use this dataset from:
 https://pan.baidu.com/s/16PqZuHgaNitDc_DyZJ480g?pwd=6666
 
 # Train
-You need to prepare Chinese and English BERT pretrained files and place them in the ```pretrain_data/bert_en``` or ```pretrain_data/bert_cn``` directories.   
+You need to prepare Chinese and English BERT pretrained files and place them in the ```pretrain_data/bert_cn``` or ```pretrain_data/bert_en``` directories.   
 
 
 The file structure should be organized as follows:
