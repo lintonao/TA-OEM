@@ -2,7 +2,7 @@
 # Please Notice:
 ### Zhijia Zhang is the corresponding author affiliated with Shenyang University of Technology.
 ### Jian Fang is the corresponding author affiliated with Shenyang Institute of Automation, Chinese Academy of Sciences.
-
+### List of Authors：Jiaming Zhang, Wenqiang Li, Zhijia Zhang, Jian Fang, Juanru Zhao, Huaici Zhao.
 # TA-OEM
 TA-OEM : Multimodal sentiment analysis using two-step hierarchical attention and self-supervised label generation.  
 
